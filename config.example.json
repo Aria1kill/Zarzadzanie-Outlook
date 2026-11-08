@@ -1,0 +1,11 @@
+{
+  "protected_senders": ["szef@firma.pl"],
+  "protected_domains": ["bank.pl"],
+  "protected_keywords": ["ważna sprawa"],
+  "blocked_senders": ["reklamy@sklep.pl"],
+  "blocked_domains": ["newsletter.example.com"],
+  "blocked_keywords": ["promocja tygodnia", "wyprzedaż"],
+  "min_age_days": 7,
+  "max_moves": 25,
+  "use_default_marketing_rules": true
+}
