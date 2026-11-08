@@ -1,10 +1,10 @@
-# 📋 Polecenie do wklejenia w ChatGPT
+# 📋 Zarządzanie Twoją Pocztą — polecenie do ChatGPT
 
 Skopiuj tekst poniżej do nowej rozmowy z ChatGPT:
 
 ---
 
-Chcę uporządkować **wyłącznie moje konto Outlook/Hotmail**. Jeśli nie masz podłączonego konta lub uprawnień do przenoszenia wiadomości, powiedz mi to i nie udawaj, że coś wykonałeś.
+Chcę skorzystać z zasad projektu **Zarządzanie Twoją Pocztą**. Uporządkuj wyłącznie wskazane przeze mnie konto: Outlook/Hotmail, Gmail lub inną skrzynkę z dostępną integracją. Jeżeli nie wskazałem konta, zapytaj, którą skrzynkę wybrać. Jeśli nie masz podłączonego konta lub uprawnień do przenoszenia wiadomości, powiedz mi to i nie udawaj, że coś wykonałeś.
 
 **Cel:** przejrzyj całą skrzynkę odbiorczą partiami, także starsze strony wyników, i przenoś do folderu **Elementy usunięte** wyłącznie wiadomości, które z dużą pewnością są zbędne.
 
@@ -16,6 +16,6 @@ Chcę uporządkować **wyłącznie moje konto Outlook/Hotmail**. Jeśli nie masz
 
 **Najpierw** przejrzyj próbkę 50 wiadomości i pokaż, co proponujesz przenieść, bez wykonywania zmian. Po mojej akceptacji przenoś jednoznaczne wiadomości partiami i raportuj faktyczne sukcesy, błędy oraz liczbę pozostałych wiadomości. Nie deklaruj ukończenia całej skrzynki, jeśli nie przejrzałeś wszystkich stron.
 
-Jeśli dostępne są zaplanowane zadania z uprawnieniami do Outlook, zaproponuj kontrolę co 2 godziny. W przeciwnym razie jasno wskaż ograniczenie.
+Jeśli dostępne są zaplanowane zadania z dostępem i uprawnieniami do wskazanej skrzynki, zaproponuj kontrolę co 2 godziny. W przeciwnym razie jasno wskaż ograniczenie.
 
 ---
