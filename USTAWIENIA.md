@@ -1,4 +1,6 @@
-# 🛠️ Własne ustawienia czyszczenia
+# 🛠️ Zarządzanie Twoją Pocztą — własne reguły
+
+Poniższe ustawienia dotyczą skryptu Outlook/Hotmail przez Microsoft Graph. Gmail i inne skrzynki wymagają osobnej integracji.
 
 W pliku [config.example.json](config.example.json) każdy może samodzielnie ustawić reguły bez zmieniania programu.
 
