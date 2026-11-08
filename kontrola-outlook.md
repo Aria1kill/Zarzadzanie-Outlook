@@ -1,29 +1,31 @@
-# 📬 Kontrola Outlook — inteligentne porządkowanie poczty
+# 📬 Zarządzanie Twoją Pocztą
 
-> Automatyczna kontrola i bezpieczne czyszczenie Outlook / Hotmail.
+> Własne reguły i porządkowanie skrytek w aplikacji Outlook. Hotmail, Gmail, itd.
 
-## ✨ Co robi automatyzacja?
+**Zarzadzanie-Outlook** to projekt pomagający utrzymać porządek w poczcie, z ochroną ważnych wiadomości i podglądem przed zmianami.
 
-- 🔄 Sprawdza nowe i starsze wiadomości zgodnie z harmonogramem (obecnie co 2 godziny).
-- 🧹 Przenosi do **Elementów usuniętych** reklamy, spam, newslettery i zbędne promocje.
-- 📦 Rozpoznaje nieaktualne powiadomienia o zakończonych przesyłkach i inne rutynowe komunikaty starsze niż 30 dni.
-- 🛡️ Chroni faktury, kody weryfikacyjne, ważne dokumenty, nowe alerty bezpieczeństwa oraz nierozwiązane sprawy finansowe.
-- 📋 Raportuje wykonane porządki.
+## ✨ Możliwości
 
-## 🔒 Zasady bezpieczeństwa
+- Własne listy nadawców, domen i słów kluczowych.
+- Reguły wieku wiadomości i limitu przenoszenia.
+- Rozpoznawanie reklam oraz newsletterów.
+- Ochrona faktur, kodów weryfikacyjnych i ważnej korespondencji.
+- Przenoszenie do Kosza po sprawdzeniu podglądu, bez trwałego usuwania.
 
-**Bez trwałego usuwania.** Wiadomości trafiają do Kosza, aby można je było odzyskać. Nie opróżnia automatycznie Kosza. W przypadku niejednoznacznej wiadomości pozostawia ją w skrzynce.
+## 📮 Obsługa skrzynek
 
-## 🧩 Jak działa?
+Dołączony [skrypt Python](outlook_cleaner.py) obsługuje Outlook i Hotmail przez Microsoft Graph. Gmail oraz inne skrzynki wymagają osobnej integracji — nie są obecnie obsługiwane przez ten skrypt.
 
-To opis skonfigurowanego zadania kontroli poczty w ChatGPT, **a nie samodzielna aplikacja do instalacji**. Automatyzacja wymaga odpowiednich uprawnień do połączonego konta Outlook i dostępności narzędzi w środowisku wykonawczym. Ten plik nie zawiera haseł, tokenów ani danych prywatnych.
+W ChatGPT można pracować z wybraną skrzynką, jeżeli odpowiednie połączenie i wymagane działania są dostępne na koncie. Zobacz [instrukcję](INSTRUKCJA_CHATGPT.md).
 
-## 🎨 Plakat
+## 🔒 Ochrona wiadomości
 
-Plakat projektu „Kontrola Outlook” został przygotowany osobno. Można dodać go do repozytorium jako `assets/kontrola-outlook.png` i następnie odkomentować linię poniżej:
+W razie wątpliwości wiadomość pozostaje w skrzynce. Reguły ochronne mają pierwszeństwo. Program nie opróżnia Kosza. Szczegóły opisano w [zasadach bezpieczeństwa](BEZPIECZENSTWO.md).
 
-<!-- ![Kontrola Outlook](assets/kontrola-outlook.png) -->
+## 🧩 Sposoby pracy
 
----
+**Python:** uruchamiasz skrypt z własnymi ustawieniami. Domyślnie wyświetla podgląd; nie ma wbudowanego harmonogramu.
 
-**Cel:** mniej reklam, więcej porządku i bezpieczne zachowanie ważnych wiadomości.
+**ChatGPT:** korzystasz z dostępnej integracji pocztowej i [gotowego polecenia](PROMPT_CHATGPT.md). Cykliczne zadania wymagają osobnej konfiguracji i dostępu do poczty w środowisku wykonawczym. Samo pobranie repozytorium nie uruchamia automatyzacji.
+
+**Cel:** mniej zbędnych wiadomości, własne zasady i wygodniejsze zarządzanie Twoją pocztą.
