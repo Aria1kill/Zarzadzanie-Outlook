@@ -1,4 +1,4 @@
-name: Testy Kontroli Outlook
+name: Testy — Zarządzanie Twoją Pocztą
 on:
   push:
   pull_request:
