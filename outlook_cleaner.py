@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Configurable Outlook inbox cleaner. Preview mode is the default."""
+"""Zarządzanie Twoją Pocztą — skrypt Outlook/Hotmail. Domyślnie podgląd."""
 import argparse
 import datetime as dt
 import json
@@ -162,7 +162,7 @@ def run(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Kontrola Outlook — własne reguły, bezpieczny podgląd")
+    parser = argparse.ArgumentParser(description="Zarządzanie Twoją Pocztą — Outlook/Hotmail, własne reguły i podgląd")
     parser.add_argument("--config", default=str(CONFIG), help="Ścieżka do ustawień JSON")
     parser.add_argument("--demo", action="store_true", help="Przykład bez logowania")
     parser.add_argument("--apply", action="store_true", help="Przenoś do Kosza")
