@@ -1,18 +1,23 @@
 <div align="center">
 
-# 📬 Kontrola Outlook
+# 📬 Zarządzanie Twoją Pocztą
 
-### Bezpieczny porządek w poczcie Outlook i Hotmail
+### Własne reguły i porządkowanie skrytek w aplikacji Outlook. Hotmail, Gmail, itd.
 
 **Własne reguły • Ochrona ważnych wiadomości • Podgląd przed zmianami**
 
-Prosty projekt open source do rozpoznawania zbędnych wiadomości i porządkowania skrzynki przy użyciu Microsoft Graph.
+Projekt **Zarzadzanie-Outlook** pomaga rozpoznawać zbędne wiadomości, ustalać własne reguły i dbać o porządek w Twojej poczcie.
 
 [🚀 Szybki start](#-szybki-start) · [⚙️ Własne reguły](USTAWIENIA.md) · [🤖 ChatGPT](INSTRUKCJA_CHATGPT.md) · [🔒 Bezpieczeństwo](BEZPIECZENSTWO.md)
 
 </div>
 
 ---
+
+## 📮 Obsługa skrzynek
+
+- **Outlook / Hotmail:** dołączony skrypt Python korzysta z Microsoft Graph.
+- **Gmail i inne skrzynki:** wymagają osobnej integracji. Dołączony skrypt Python ich obecnie nie obsługuje. Instrukcja ChatGPT opisuje wybór dostępnego połączenia i sprawdzenie jego uprawnień.
 
 ## ✨ Co potrafi program?
 
